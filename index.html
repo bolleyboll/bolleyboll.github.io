@@ -54,35 +54,6 @@
 		<meta property="og:description" content="This is the Portfolio of Aman Gupta.">
 		<meta property="og:image" content="https://bolleyboll.github.io/images/opengraph.jpg">
 
-		<!-- Modern CSS Support Check -->
-		<script>
-			document.documentElement.className = "js";
-			var supportsCssVars = function() {
-			  var e, t = document.createElement("style");
-			  return (
-			    (t.innerHTML = "root: { --tmp-var: bold; }"),
-			    document.head.appendChild(t),
-			    (e = !!(
-			      window.CSS &&
-			      window.CSS.supports &&
-			      window.CSS.supports("font-weight", "var(--tmp-var)")
-			    )),
-			    t.parentNode.removeChild(t),
-			    e
-			  );
-			};
-			supportsCssVars() ||
-			  alert("Please view this Website in a modern browser that supports CSS Variables.");
-		</script>
-
-		<!-- Mobile/Desktop -->
-		<script type="text/javascript">
-			var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-			var element = document.getElementById('text');
-			if (isMobile) {
-	  			alert("Hover functions implemented, I suggest that you use a Desktop for a better experience.");
-			}
-		</script>
 	</head>
 	<body class="is-preload">
 
@@ -124,6 +95,7 @@
 								<h2 class="major">Introduction <a href="#skills" class="icon hvr-buzz fa-arrow-circle-right" title="Next Section"><span class="label">Skills</span></a></h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<p>
+									<!-- I am Aman Gupta, a Computer Science Engineer -->
 									I am really sorry, but this webpage is being designed as of now.<br>
 
 									You can get in touch with me <a href="#contact">here</a>.<br>
@@ -277,6 +249,36 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+
+		<!-- Modern CSS Support Check -->
+		<script>
+			document.documentElement.className = "js";
+			var supportsCssVars = function() {
+			  var e, t = document.createElement("style");
+			  return (
+			    (t.innerHTML = "root: { --tmp-var: bold; }"),
+			    document.head.appendChild(t),
+			    (e = !!(
+			      window.CSS &&
+			      window.CSS.supports &&
+			      window.CSS.supports("font-weight", "var(--tmp-var)")
+			    )),
+			    t.parentNode.removeChild(t),
+			    e
+			  );
+			};
+			supportsCssVars() ||
+			  alert("Please view this Website in a modern browser that supports CSS Variables.");
+		</script>
+
+		<!-- Mobile/Desktop -->
+		<script type="text/javascript">
+			var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+			var element = document.getElementById('text');
+			if (isMobile) {
+	  			alert("Hover functions implemented, I suggest that you use a Desktop for a better experience.");
+			}
+		</script>
 
 		<!-- Tooltip -->
 
