@@ -9,6 +9,9 @@
   ExpiresByType image/svg+xml "access plus 1 year"
   ExpiresByType image/x-icon "access plus 1 year"
 
+  AddType image/svg+xml svg svgz
+  AddEncoding gzip svgz
+
   # Video
   ExpiresByType video/mp4 "access plus 1 year"
   ExpiresByType video/mpeg "access plus 1 year"

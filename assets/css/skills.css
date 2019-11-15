@@ -1,0 +1,15 @@
+.skill-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 0px;
+}
+.skill-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.tabsize{
+	width: 125px;
+	height: 125px;
+}
