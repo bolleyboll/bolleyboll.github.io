@@ -86,7 +86,7 @@
             // geoIp lookup function
             geoIpLookup: null,
             // inject a hidden input with this name, and on submit, populate it with the result of getNumber
-            hiddenInput: "",
+            hiddenInput: "mobile[full]",
             // initial country
             initialCountry: "",
             // localized country names e.g. { 'de': 'Deutschland' }
@@ -102,7 +102,7 @@
             // display the country dial code next to the selected flag so it's not part of the typed number
             separateDialCode: true,
             // specify the path to the libphonenumber script to enable validation/formatting
-            utilsScript: "assets/js/utilsScript.js"
+            utilsScript: "assets/js/utilsScript.min.js"
         };
         // https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes#Non-geographic_area_codes
         var regionlessNanpNumbers = [ "800", "822", "833", "844", "855", "866", "877", "880", "881", "882", "883", "884", "885", "886", "887", "888", "889" ];
