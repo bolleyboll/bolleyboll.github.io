@@ -8,24 +8,6 @@
 		<meta name="keywords" content="portfolio, blockchain, web design, machine learning, javascript, python" />
 		<meta name="author" content="Aman Gupta" />
 		
-
-		<!-- NoScript -->
-		<noscript>
-			<link rel="stylesheet" href="assets/css/noscript.min.css" /></noscript>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143065503-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-143065503-1');
-		</script>
-
-		<!-- Google reCAPTCHA -->
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-
 		<!--FavIcon Base-->
 		 <link rel="icon" href="favicon.ico" type="image/ico"/>
          <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -345,7 +327,8 @@
 										<div class="timeline-item">
 											<h4>Microsoft Technology Associate Certified in Python</h4>
 											<blockquote style="color: #ffffff">- Microsoft, Signed by Satya Nadella</blockquote>
-											<form action="https://drive.google.com/file/d/1wjJRZis9juWBQmqBBrHqoQcq0X1inU3k/view?usp=sharing" target="_blank" rel="noopener">
+											<form action="https://drive.google.com/open?id=1QmhA4UZFXvuyykLNgq_72nN71PxGt78L" target="_blank"
+												rel="noopener">
 												<input type="submit" value="View Certificate" class="primary"/>
 											</form>
 										</div>
@@ -445,7 +428,7 @@
 										</div>
 										<div class="field">
 											<label for="contactno">Contact Number</label>
-											<input type="tel" name="mobile" id="phone">
+											<input type="tel" name="mobile[full]" id="phone">
 										</div>
 										<div class="field">
 											<label for="message">Message*</label>
@@ -541,7 +524,11 @@
 			</div>
 
 		<!-- BG -->
- 		<div id="bg"></div>
+		<div id="bg"></div>
+
+		 <!-- NoScript -->
+		 <noscript><link rel="stylesheet" href="assets/css/noscript.min.css" /></noscript>
+
 
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
@@ -550,6 +537,21 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/recaptcha.js"></script>
 		<script src="assets/js/main.js"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143065503-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'UA-143065503-1');
+		</script>
+
+		<!-- Google reCAPTCHA -->
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 		<!-- Telephone -->
 		<script src="assets/js/intlTelInput.js"></script>
@@ -591,18 +593,6 @@
 		<!-- Tooltip -->
 
 		<!-- Background -->
-		<!-- <script type="text/javascript">
-			$(document).ready(function() {
-			  var urls = ['images/background/bg01.jpg', 'images/background/bg02.jpg', 'images/background/bg03.jpg', 'images/background/bg04.jpg','images/background/bg05.jpg','images/background/bg06.jpg','images/background/bg07.jpg'];
-
-			  var cout = 1;
-			  $('body').css('background-image', 'url("' + urls[0] + '")');
-			  setInterval(function() {
-			    $('body').css('background-image', 'url("' + urls[cout] + '")');
-			    cout == urls.length-1 ? cout = 0 : cout++;
-			  }, 5);
-
-			});
-		</script> -->
+		
 	</body>
 </html>

@@ -70,7 +70,7 @@
             // whether or not to allow the dropdown
             allowDropdown: true,
             // if there is just a dial code in the input: remove it on blur
-            autoHideDialCode: true,
+            autoHideDialCode: false,
             // add a placeholder in the input with an example number for the selected country
             autoPlaceholder: "polite",
             // modify the parentClass
@@ -100,9 +100,9 @@
             // the countries at the top of the list. defaults to united states and united kingdom
             preferredCountries: [ "in","us" ],
             // display the country dial code next to the selected flag so it's not part of the typed number
-            separateDialCode: false,
+            separateDialCode: true,
             // specify the path to the libphonenumber script to enable validation/formatting
-            utilsScript: "assets/js/utils.js"
+            utilsScript: "assets/js/utilsScript.js"
         };
         // https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes#Non-geographic_area_codes
         var regionlessNanpNumbers = [ "800", "822", "833", "844", "855", "866", "877", "880", "881", "882", "883", "884", "885", "886", "887", "888", "889" ];
