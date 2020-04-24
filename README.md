@@ -13,6 +13,7 @@ Other than programming, over the years, I've also come to love cooking, fitness,
 
 ### TODO:
 
+- Update Resume and Projects
 - GTAG Cookie Notification
 - Background Slideshow
 - Button CSS Design for better Readability
