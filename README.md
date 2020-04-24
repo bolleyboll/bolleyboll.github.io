@@ -14,6 +14,7 @@ Other than programming, over the years, I've also come to love cooking, fitness,
 ### TODO:
 
 - Update Resume and Projects
+- Make Skill cards flip by nth child CSS Property
 - GTAG Cookie Notification
 - Background Slideshow
 - Button CSS Design for better Readability
