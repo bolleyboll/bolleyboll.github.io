@@ -19,3 +19,4 @@ Other than programming, over the years, I've also come to love cooking, fitness,
 - Find better way to convey to mobile users that a button is disabled
 - Better Responsive Design of Skills Tab
 - Custom Tooltip
+- Swap Favicon Py Script
