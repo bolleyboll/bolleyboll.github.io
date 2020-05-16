@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: bolleyboll.github.io
-Token: e87bd8daca5ddcca32636e879f892687314de10205840c8793a903e613a5a28f
